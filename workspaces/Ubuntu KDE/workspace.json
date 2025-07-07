@@ -32,10 +32,13 @@
     "arm64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x",
-    "1.15.x",
-    "1.16.x"
-  ],
-  "uncompressed_size_mb": 2200
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/webtop:ubuntu-kde",
+      "uncompressed_size_mb": 2200,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
 }
